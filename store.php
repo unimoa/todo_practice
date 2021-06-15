@@ -12,7 +12,7 @@ $time = date("Y/m/d H:i:m");
 
 
 // DBへのデータ保存
-$task = new Task(); 　// インスタンス化
+$task = new Task();// インスタンス化
 $task->create([$title, $contents, $time]);
 
 // リダイレクト
